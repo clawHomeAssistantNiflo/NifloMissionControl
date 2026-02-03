@@ -1,0 +1,72 @@
+{
+  "columns": [
+    {
+      "column": "To Do",
+      "items": [
+        {
+          "title": "Tjek at alle automations dukker op i queue",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Mission Control"
+        },
+        {
+          "title": "Definer faste dags/uge workflows (X + LinkedIn)",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Workflow"
+        },
+        {
+          "title": "Lav en simpel backlog template til nye content-ideer",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Content"
+        },
+        {
+          "title": "Sæt notifikationer hvis automation fejler",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Ops"
+        }
+      ]
+    },
+    {
+      "column": "In Progress",
+      "items": [
+        {
+          "title": "Finjuster data adapter (næste run + sortering)",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Automation"
+        }
+      ]
+    },
+    {
+      "column": "Review",
+      "items": [
+        {
+          "title": "Daglige X posts",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Review"
+        },
+        {
+          "title": "LinkedIn posts (2x/uge)",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Review"
+        }
+      ]
+    },
+    {
+      "column": "Done",
+      "items": [
+        {
+          "title": "Mission Control UI live",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Launch"
+        }
+      ]
+    }
+  ]
+}

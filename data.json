@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-02-03 22:09",
+  "queue": [
+    {
+      "name": "Daily X Summary",
+      "status": "ready",
+      "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU;BYHOUR=8;BYMINUTE=0",
+      "next_run": "2026-02-04 08:00",
+      "last_run": "",
+      "notes": "daily-x-summary",
+      "order": 1
+    },
+    {
+      "name": "Linkedin",
+      "status": "ready",
+      "rrule": "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=WE,FR",
+      "next_run": "",
+      "last_run": "",
+      "notes": "linkedin-3",
+      "order": 2
+    }
+  ],
+  "columns": [
+    {
+      "column": "To Do",
+      "items": [
+        {
+          "title": "Tjek at alle automations dukker op i queue",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Mission Control"
+        },
+        {
+          "title": "Definer faste dags/uge workflows (X + LinkedIn)",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Workflow"
+        },
+        {
+          "title": "Lav en simpel backlog template til nye content-ideer",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Content"
+        },
+        {
+          "title": "S\u00e6t notifikationer hvis automation fejler",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Ops"
+        }
+      ]
+    },
+    {
+      "column": "In Progress",
+      "items": [
+        {
+          "title": "Finjuster data adapter (n\u00e6ste run + sortering)",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Automation"
+        }
+      ]
+    },
+    {
+      "column": "Review",
+      "items": [
+        {
+          "title": "Daglige X posts",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Review"
+        },
+        {
+          "title": "LinkedIn posts (2x/uge)",
+          "owner": "NF",
+          "due": "Denne uge",
+          "tag": "Review"
+        }
+      ]
+    },
+    {
+      "column": "Done",
+      "items": [
+        {
+          "title": "Mission Control UI live",
+          "owner": "NF",
+          "due": "I dag",
+          "tag": "Launch"
+        }
+      ]
+    }
+  ]
+}
